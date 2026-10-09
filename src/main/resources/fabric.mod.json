@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "gnomefolk",
+  "version": "${version}",
+  "name": "Gnomefolk",
+  "description": "Adds rare, whimsical gnomes that wander the overworld, teleport when hit, and drop random goodies.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.gnomefolk.Gnomefolk"],
+    "client": ["com.gnomefolk.client.GnomefolkClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
